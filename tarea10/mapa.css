@@ -1,0 +1,117 @@
+header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    width: 100%;
+    height: 110px;
+    background-color: beige;
+    justify-content: space-around;
+    border-radius: 50px;
+    padding: px;
+    box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 4);
+}
+header ul li{
+    display: -ms-inline-grid;
+}
+header ul{
+   display: flex;
+   list-style: none;
+}
+header li{
+    margin-right: 45px;
+    margin-top: 19px;
+    
+}
+header li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+header li a:hover{
+    color: brown;
+    transition: 0.8s;
+}
+section{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+h1{
+    color: rgb(182, 50, 50);
+}
+.numero{
+    
+    padding: 15px;
+}
+.uno{
+    width: 23%;
+    font-size: 20px;
+}
+.dos{
+    width: 23%;
+}
+.tres{
+    width: 26%;
+}
+.dos input{
+    height: 50px;
+    width: 90%;
+    padding: 5px;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+.dos .mensaje{
+    height: 90px;
+    width: 90%;
+}
+input, textarea{
+    font-size: 18px;
+}
+input[type="submit"]{
+    background-color: rgb(109, 136, 136);
+    color: white;
+}
+.tres{
+    padding: 0;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: rgb(177, 72, 72);
+    padding: 20px;
+    width: 100%;
+    position: relative; /* Cambiado de absolute a relative */
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+footer{
+    background-color: rgb(211, 57, 57);
+    padding-top: 20px;
+    margin-top: 120px;
+    padding-bottom: 100px;
+    height: 230px;
+}
+
+#pie{
+    column-count: 4;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: italic; 
+}
+
+#pie hr{
+    width: 75%;
+    border: 1px solid rgb(18, 16, 16);
+}
