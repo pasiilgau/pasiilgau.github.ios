@@ -1,0 +1,76 @@
+body{
+    flex-wrap: wrap;
+}
+
+main{
+    width: 60%;
+    margin: 20px auto;
+    
+}
+header{
+    margin-top: 80px;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Sedan SC", serif;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    height: 200px;
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+header a :hover{
+    opacity: 0.7;
+}
+
+ul{
+    display: flex;
+    margin-left: 90px;
+    margin-top: 0;
+    list-style: none;
+    padding: 0;
+}
+li{
+    list-style: none;
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    color: rgb(35, 35, 135);
+}
+li a{
+    color: rgb(29, 33, 167);
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+
+}
+
+li a :hover{
+    background-color: rgb(195, 200, 204);
+    transition: 0.8s;
+    opacity: 0.6;
+    border-radius: 10px;
+}
+#Lasmejores{
+    text-align: center;
+}
+#mochilaprimera img{
+    float: left;
+    margin-right: 15px;
+}
+#mochilasegunda img{
+    float: right;
+    margin-right: 15px;
+}
+#mochilasegunda h2{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    margin-top: 40px;
+}
+
+    
