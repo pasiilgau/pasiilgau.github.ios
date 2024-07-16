@@ -1,0 +1,68 @@
+#yo{
+    background-color: #F2E4BB;
+}
+#habilidades{
+    text-align: center;
+}
+#tres{
+    text-align: center;
+    background-color: #6B5EBF;
+    height: 300px;
+}
+#tres h2{
+    padding-top: 80px;
+}
+#tres p{
+    width: 50%;
+    text-align: center;
+}
+#cartas{
+    padding: 100px 0;
+}
+
+.card{
+    margin-bottom: 30px;
+}
+
+.card-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-text{
+    font-size: 1.1rem;
+}
+
+.badge-primary{
+    margin-right: 5px;
+}
+span{
+    background-color: #04BFAD;
+}
+#proyectos{
+    text-align: center;
+}
+#proyectos img {
+    width: 100%;
+    height: 250px;
+}
+#articulos{
+    margin-top: 60px;
+}
+#articulos h2{
+    text-align: center;
+}
+footer{
+margin-top: 90px;
+    text-align: center;
+    background-color: #F2811D;
+    height: 340px;
+    width: 100%;
+}
+footer img{
+    margin-top: 30px;
+}
+footer p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
